@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pogoda</title>
+</head>
+<body>
+    <div id="weather-container">
+        <h2>Pogoda</h2>
+        <input type="text" id="city-input" placeholder="Podaj miasto">
+        <button onclick="getWeather()">Pobierz pogodę</button>
+        <img src="pobrane.png" id="weather-icon" alt="Ikona pogody">
+
+        <div id="temp-info"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>
